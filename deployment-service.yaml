@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: yuvrajshinde/yuvraj12:v2.0 # Image that will be used to containers in the cluster
+          image: yuvrajshinde0012/game:lts # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
